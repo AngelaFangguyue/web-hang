@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+img {
+  max-height: 100%;
+  max-width: 100%;
+}
+body {
+  background-color: #eee;
+}
+header.hea {
+  /* border: 1px solid red; */
+  margin: 20px;
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center; */
+}
+
+header.hea form.for {
+  /* border: 1px solid blue; */
+  display: flex;
+  justify-content: space-between;
+}
+@media (min-width: 500px) {
+  header.hea form.for {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0;
+  }
+}
+header.hea form.for input.inp {
+  width: 100%;
+  margin-right: 10px;
+  height: 40px;
+  padding: 0 10px;
+  border: none;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+header.hea form.for button.but {
+  white-space: nowrap;
+  padding: 0 28px;
+  border: none;
+  /* border: 1px solid #ddd; */
+  border-radius: 4px;
+  background-color: #0282b9;
+  color: white;
+  font-size: 16px;
+}
+main.mai {
+  outline: 5px solid blue;
+  margin: 20px; /*//这个margin:20px也可以加在div.wrap上面 */
+}
+@media (min-width: 769px) {
+  main.mai {
+    /* min-width: 900px; */
+    width: 900px; /*这里要固定一个宽度*/
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+main.mai div.wra {
+  outline: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  /* margin: 20px; */
+  justify-content: space-between;
+}
+@media (min-width: 769px) {
+  main.mai div.wra {
+    /* margin-left: 0; */
+    margin-right: -25px;
+    justify-content: flex-start;
+  }
+}
+
+main.mai div.wra div.con {
+  /* border: 1px solid red; */
+  width: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 20px 0;
+  position: relative;
+}
+@media (min-width: 769px) {
+  main.mai div.wra div.con {
+    margin-right: 25px;
+  }
+}
+main.mai div.wra div.con div.logo {
+  /* border: 1px solid red; */
+  width: 64px;
+  height: 64px;
+  font-size: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main.mai div.wra div.con div.urll {
+  /* border: 1px solid green; */
+  font-size: 14px;
+  margin-top: 8px;
+}
+main.mai div.wra div.con div.close {
+  /* border: 1px solid green; */
+  position: absolute;
+  top: 0px;
+  right: 4px;
+  display: none;
+}
+main.mai div.wra div.con:hover div.close {
+  display: block;
+}
+main.mai div.wra div.con .iconadd {
+  width: 56px;
+  height: 56px;
+}
+
+
+/*# sourceMappingURL=style.a2560055.css.map */

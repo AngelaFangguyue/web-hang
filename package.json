@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "build": "rm -rf dist && parcel build index.html --no-minify --public-url ./"
+  },
+  "name": "repeat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "AngelaFang <1823476439@qq.com>",
+  "license": "MIT"
+}
